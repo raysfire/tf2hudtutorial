@@ -2395,6 +2395,8 @@ Scheme
 			}
 		}
 		
+		//Biko Regular
+		
 		BikoRegular12
 		{
 			"1"
@@ -2461,6 +2463,88 @@ Scheme
 			{
 				"name"		"Biko"
 				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		//Biko Bold fonts - HP/ammo
+		
+		BikoBold12
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold16
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold24
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold32
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold36
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold42
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold48
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold56
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"56"
 				"antialias" "1"
 			}
 		}
