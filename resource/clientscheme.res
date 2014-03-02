@@ -18,6 +18,10 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		// custom hud colors
+		"Black_tf2hud"				"0 0 0 255"
+		"White_tf2hud"				"255 255 255 255"
+	
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -2495,6 +2499,16 @@ Scheme
 			{
 				"name"		"Biko-Bold"
 				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		BikoBold28
+		{
+			"1"
+			{
+				"name"		"Biko-Bold"
+				"tall"		"28"
 				"antialias" "1"
 			}
 		}

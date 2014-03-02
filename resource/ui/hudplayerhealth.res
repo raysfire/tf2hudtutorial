@@ -80,7 +80,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"BikoBold56"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White_tf2hud"
 	}
 
 	"PlayerStatusHealthValueBG"
@@ -97,7 +97,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"BikoBold56"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"Black_tf2hud"
 	}
 	"TeamIndicator"
 	{
