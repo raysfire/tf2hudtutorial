@@ -34,7 +34,6 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"73"
-		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
 		"wide"			"0"
@@ -48,30 +47,24 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"73"	[$WIN32]
-		"xpos_minmode"	"65"	[$WIN32]
-		"xpos"			"83"	[$X360]
-		"ypos"			"33"	[$WIN32]
-		"ypos_minmode"	"40"	[$WIN32]
+		"xpos"			"9999"	[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
-		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
-		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"wide"			"0"	[$WIN32]
+		"tall"			"0"	[$WIN32]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
+		"alpha"			"0"
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"-10"
-		"ypos"			"0"	
+		"ypos"			"-2"	
 		"zpos"			"5"
 		"wide"			"250"
 		"tall"			"120"
@@ -88,7 +81,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
 		"xpos"			"-8"
-		"ypos"			"2"	
+		"ypos"			"0"	
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"120"
@@ -99,14 +92,28 @@
 		"font"			"BikoBold56"
 		"fgcolor"		"Black_tf2hud"
 	}
+	"HealthBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"70"
+		"ypos"			"34"
+		"zpos"			"-1"
+		"wide"			"90"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 125"
+	}
+
 	"TeamIndicator"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
-		"xpos"			"85"
+		"xpos"			"70"
 		"ypos"			"80"
 		"zpos"			"2"
-		"wide"			"60"
+		"wide"			"90"
 		"tall"	 		"3"
 		"autoResize"	"0"
 		"pinCorner"		"0"
